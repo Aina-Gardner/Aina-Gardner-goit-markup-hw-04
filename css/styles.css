@@ -384,6 +384,7 @@ top: 430px;
   padding-right: 65px;
   fill: 
   rgba(175, 177, 184, 1);
+  background-color: #ffffff;
 }
 
 .icon-2 {
@@ -451,16 +452,30 @@ top: 430px;
   rgba(175, 177, 184, 1);
 }
 
+
+.clients-item-link {
+  fill: 
+  rgba(175, 177, 184, 1);
+}
+
 .clients-item:hover,
 .clients-item:focus {
   border-color: #2196F3;
-  cursor: pointer;
+  fill: #2196F3;
+  
 }
 
-.client-list-icon:hover,
-.client-list-icon:focus {
+.clients-list:hover,
+.clients-list:focus {
   fill: #2196F3;
 }
+
+.clients-item-link:hover,
+.clients-item-link:focus {
+  fill: #2196F3;
+}
+
+
 
 /* ==========/Main========== */
 
@@ -521,7 +536,7 @@ top: 430px;
 
 .footer-logo {
   display: block;
-  width: 231px;
+  width: auto;
   margin-bottom: 20px;
   margin-left: 120px;
   margin-right: 70px;
@@ -533,11 +548,6 @@ top: 430px;
   margin-top: 20px;
 }
 
-.footer-adress-wrapper {
-  margin-bottom: 0px;
-  margin-right: auto;
-
-}
 
 .footer-contact-mail {
   margin-bottom: 9px;
@@ -546,11 +556,11 @@ top: 430px;
 .join-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
-  
+  text-transform: uppercase;
   
   }
   
@@ -577,6 +587,7 @@ top: 430px;
   
   .join-list {
     display:flex;
+    flex-direction: row;
     justify-content: center;
     gap: 10px;
     margin-top: 30px;
@@ -587,7 +598,9 @@ top: 430px;
     padding-left: 70px;
     padding-top: 10px;
   }
-
+ .join-wrapper {
+  margin-top: 12px;
+ }
 
 
 
