@@ -385,7 +385,6 @@ top: 430px;
   rgba(175, 177, 184, 1);
 }
 
-
 .client-list-icon {
   fill: 
   rgba(175, 177, 184, 1); 
@@ -394,6 +393,7 @@ top: 430px;
 .clients-item-link:hover,
 .clients-item-link:focus {
   border-color: #2196F3;
+  background-color: #ffffff;
   color: #2196F3; 
   fill: #2196F3;
 } 
@@ -459,21 +459,33 @@ top: 430px;
   color: var(--accent-color);
 }
 
+
 .footer {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  width: 1600px;
+  height: 252px;
   background-color: #2F303A;
 }
+
+.footer-part1 {
+  width: 231px;
+  height: 81px;
+  margin-right: 70px;
+  align-content: center;
+  margin-top: 60px;
+}
+
+.footer-part2 {
+  width: 206px;
+  height: 80px;
+  margin-top: 72px;
+  }
 
 .footer-logo {
   display: flex;
   width: auto;
-  /* margin-bottom: 20px; */
   margin-left: 120px;
   margin-right: 70px;
-  
-  
 }
 
 .footer-adress {
